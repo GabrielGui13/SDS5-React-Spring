@@ -26,3 +26,9 @@
     - Spring Security
 * pom.xml => Add Starters para adicionar mais dependencias
 * Ctrl + F5 => para iniciar a aplicacao
+
+
+## Netlify
+* Para que o build funcione no Netlify:
+* Criar arquivo _redirects na public
+* E colocar "/* /index.html 200" sem as aspas
